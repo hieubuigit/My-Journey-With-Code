@@ -1,6 +1,34 @@
 # LearnAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+This information from terminal:
+      _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+
+
+Angular CLI: 14.0.7
+Node: 16.19.0
+Package Manager: npm 8.19.3
+OS: win32 x64
+
+Angular: 14.3.0
+... animations, common, compiler, compiler-cli, core, forms
+... platform-browser, platform-browser-dynamic, router
+
+Package                         Version
+---------------------------------------------------------
+@angular-devkit/architect       0.1402.11
+@angular-devkit/build-angular   14.2.11
+@angular-devkit/core            14.2.11
+@angular-devkit/schematics      14.0.7
+@angular/cli                    14.0.7
+@schematics/angular             14.0.7
+rxjs                            7.5.7
+typescript                      4.7.4
 
 ## Development server
 
