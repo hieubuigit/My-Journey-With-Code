@@ -18,7 +18,7 @@ export class ParentComComponent implements OnInit, AfterViewInit  {
 
   ngAfterViewInit(): void {
     console.log(">> parent ngAfterViewInit running!");
-    alert(this.child.message);
+    // alert(this.child.message);
   }
 
   ngOnInit(): void {

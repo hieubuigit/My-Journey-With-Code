@@ -1,0 +1,29 @@
+@import '../../../assets/my-custom.css';
+
+h1 {
+  color: red;
+}
+
+/* ======= Use the host special seudo ======= */
+
+:host {
+  display: block;
+  /* color: blue; */
+  background-color: deepskyblue;
+  border: 5px solid black;
+}
+
+
+/**
+* Priority higher than :host
+* use this class over the component
+*/
+:host(.my-custom1) {
+  background-color: violet;
+}
+
+
+:host-context(.wrap-content) h1 {
+  background: rgb(0, 255, 72);
+  color: yellow;
+}
