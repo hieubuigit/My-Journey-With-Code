@@ -1,0 +1,22 @@
+<h2>Test colSpan instead colspan: </h2>
+<table>
+  <tr>
+    <th [colSpan]="1 + 1">Heading 1</th>
+    <th [colSpan]="">Heading 2</th>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+    <td>America</td>
+  </tr>
+</table>
+
+<h2>Image property binding: </h2>
+<img src="{{imageUrl}}" alt="">
+<img [src]="imageUrl" alt="">
