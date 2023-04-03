@@ -1,1 +1,18 @@
-<p>template-variable works!</p>
+<h2>Template-variable works!</h2>
+<h3>Variable can limit access when use with directives as ngIf, ngFor, ng-template</h3>
+<form action="">
+
+  <!-- <div *ngIf="true">  Limit scope of variable-->
+    <!-- <label for="" *ngIf="true"> -->
+      <input type="email" placeholder="Enter your email..." #email>
+    <!-- </label> -->
+  <!-- </div> -->
+
+    <!-- <ng-template> Limit scope of variable-->
+      <input type="tel" placeholder="Enter your phone..." #tel>
+    <!-- </ng-template> -->
+
+  <button class="save-btn" type="button" (click)="clickSave(email.value)">Save</button>
+  <button class="save-btn" type="button" (click)="clickSave(tel.value)">Save Tel</button>
+
+</form>

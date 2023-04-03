@@ -12,4 +12,9 @@ export class TemplateVariableComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  clickSave(inp: any) {
+    console.log(">> Click save: ", inp);
+
+  }
+
 }

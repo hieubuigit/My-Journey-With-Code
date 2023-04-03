@@ -17,6 +17,8 @@ import { EventBindingComponent } from './8-event-binding/event-binding/event-bin
 import { TwoWayBindingComponent } from './9-two-way-binding/two-way-binding/two-way-binding.component';
 import { ResizeComponentComponent } from './9-two-way-binding/resize-component/resize-component.component';
 import { TemplateVariableComponent } from './10-template-variable/template-variable/template-variable.component';
+import { DirectivesComponent } from './11-Directives/directives/directives.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -35,10 +37,12 @@ import { TemplateVariableComponent } from './10-template-variable/template-varia
     TwoWayBindingComponent,
     ResizeComponentComponent,
     TemplateVariableComponent,
+    DirectivesComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
