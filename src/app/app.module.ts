@@ -19,6 +19,9 @@ import { ResizeComponentComponent } from './9-two-way-binding/resize-component/r
 import { TemplateVariableComponent } from './10-template-variable/template-variable/template-variable.component';
 import { DirectivesComponent } from './11-Directives/directives/directives.component';
 import { FormsModule } from '@angular/forms';
+import { LearnAttrDirectiveComponent } from './12-attribute-directive/learn-attr-directive/learn-attr-directive.component';
+import { HightLightDirective } from './12-attribute-directive/learn-attr-directive/hightlight.directive';
+import { StructureDirectiveComponent } from './13-structure-directive/structure-directive/structure-directive.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +41,9 @@ import { FormsModule } from '@angular/forms';
     ResizeComponentComponent,
     TemplateVariableComponent,
     DirectivesComponent,
+    LearnAttrDirectiveComponent,
+    HightLightDirective,
+    StructureDirectiveComponent
   ],
   imports: [
     BrowserModule,
