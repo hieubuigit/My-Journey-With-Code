@@ -16,10 +16,10 @@ export class StructureDirectiveComponent implements OnInit {
     {name: "Gump"},
   ]
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
-
   }
 
 }

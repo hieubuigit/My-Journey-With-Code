@@ -22,6 +22,10 @@ import { FormsModule } from '@angular/forms';
 import { LearnAttrDirectiveComponent } from './12-attribute-directive/learn-attr-directive/learn-attr-directive.component';
 import { HightLightDirective } from './12-attribute-directive/learn-attr-directive/hightlight.directive';
 import { StructureDirectiveComponent } from './13-structure-directive/structure-directive/structure-directive.component';
+import { DependenceInjectionComponent } from './14-dependence-injection/dependence-injection/dependence-injection.component';
+import { RoutingComponent } from './15-routing/routing/routing.component';
+import { ChildAComponent } from './15-routing/routing/child-a/child-a.component';
+import { ChildBComponent } from './15-routing/routing/child-b/child-b.component';
 
 @NgModule({
   declarations: [
@@ -42,13 +46,18 @@ import { StructureDirectiveComponent } from './13-structure-directive/structure-
     TemplateVariableComponent,
     DirectivesComponent,
     LearnAttrDirectiveComponent,
-    HightLightDirective,
-    StructureDirectiveComponent
+    HightLightDirective,  // This is directive from section 12
+    StructureDirectiveComponent,
+    DependenceInjectionComponent,
+    RoutingComponent,
+    ChildAComponent,
+    ChildBComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    AppRoutingModule, // Use routing
   ],
   providers: [],
   bootstrap: [AppComponent]

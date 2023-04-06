@@ -8,16 +8,16 @@ import { Component, OnInit, OnDestroy, AfterViewInit } from '@angular/core';
 export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
 
   ngAfterViewInit(): void {
-    console.log("=> ngAfterViewInit running");
+    // console.log("=> ngAfterViewInit running");
   }
 
   ngOnDestroy(): void {
-    console.log("=> ngOnDestroy running");
+    // console.log("=> ngOnDestroy running");
 
   }
 
   ngOnInit(): void {
-    console.log("=> ngOnInit running");
+    // console.log("=> ngOnInit running");
   }
 
   title = 'learn-angular';
