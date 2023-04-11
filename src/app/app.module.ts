@@ -18,7 +18,7 @@ import { TwoWayBindingComponent } from './9-two-way-binding/two-way-binding/two-
 import { ResizeComponentComponent } from './9-two-way-binding/resize-component/resize-component.component';
 import { TemplateVariableComponent } from './10-template-variable/template-variable/template-variable.component';
 import { DirectivesComponent } from './11-Directives/directives/directives.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LearnAttrDirectiveComponent } from './12-attribute-directive/learn-attr-directive/learn-attr-directive.component';
 import { HightLightDirective } from './12-attribute-directive/learn-attr-directive/hightlight.directive';
 import { StructureDirectiveComponent } from './13-structure-directive/structure-directive/structure-directive.component';
@@ -26,6 +26,10 @@ import { DependenceInjectionComponent } from './14-dependence-injection/dependen
 import { RoutingComponent } from './15-routing/routing/routing.component';
 import { ChildAComponent } from './15-routing/routing/child-a/child-a.component';
 import { ChildBComponent } from './15-routing/routing/child-b/child-b.component';
+import { MyLearnFormComponent } from './16-my-learn-form/my-learn-form/my-learn-form.component';
+import { FormValidationComponent } from './17-form-valication/form-validation/form-validation.component';
+import { HttpClientModule } from '@angular/common/http';
+import { HttpClientComponent } from './18-http-client/http-client/http-client.component';
 
 @NgModule({
   declarations: [
@@ -51,13 +55,18 @@ import { ChildBComponent } from './15-routing/routing/child-b/child-b.component'
     DependenceInjectionComponent,
     RoutingComponent,
     ChildAComponent,
-    ChildBComponent
+    ChildBComponent,
+    MyLearnFormComponent,
+    FormValidationComponent,
+    HttpClientComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
+    FormsModule,  // For use ngModel
     AppRoutingModule, // Use routing
+    ReactiveFormsModule,  // Complex form
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
