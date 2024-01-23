@@ -1,0 +1,19 @@
+-------- Datebase information --------
+
+======= PostgreSQL =======
+user: localhost
+pass: 123456789
+port: 5432
+
+
+
+======= Entity framework ===========
+
+Microsoft.EntityFrameworkCore.Tools
+Latest stable 7.0.4
+
+System.Linq
+Latest stable 4.3.0
+
+
+Scaffold-DbContext "server=127.0.0.1;port=3306;user=root;password=123456789;database=pet-information" MySql.EntityFrameworkCore -OutputDir Entities -f
