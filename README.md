@@ -2,7 +2,7 @@
 
 ## For learning foundations:
 - JavaScript
-- TypeScript
+- TypeScript.
 - Python
 - C#
 
